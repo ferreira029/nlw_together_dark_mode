@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f8f8;
+  color: #29292e;
+
+  .layout-dark {
+    background-color: #031F30;
+    color: #FEF;
+    height: 100vh;
+
+    img.logo-img {
+      filter: invert(1);
+    }
+  }
+}
+
+body, input, button, textarea {
+  font: 400 16px 'Roboto', sans-serif;
+}
